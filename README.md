@@ -5,13 +5,13 @@ ip段信息取自 [misakaio](https://github.com/misakaio/chnroutes2)
 
 策略路由分流的实现方法：
 
-**CN.rsc** 是往Firewall - address lists 里生ip段列表。
+**cnip.rsc** 是往Firewall - address lists 里生ip段列表。
 ```
-/file remove [find name="CN.rsc"]
-/tool fetch url="https://cdn.jsdelivr.net/gh/meykyou/chnroute@main/CN.rsc"
-:if ([:len [/file find name=CN.rsc]] > 0) do={
+/file remove [find name="cnip.rsc"]
+/tool fetch url="https://cdn.jsdelivr.net/gh/meykyou/chnroute@main/cnip.rsc"
+:if ([:len [/file find name=cnip.rsc]] > 0) do={
 /ip firewall address-list remove [find comment="AS4809"]
-/import CN.rsc
+/import cnip.rsc
 }
 ```
 
