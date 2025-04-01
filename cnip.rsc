@@ -6327,6 +6327,7 @@ add list=cnip address=163.223.156.0/23 comment=AS4809
 add list=cnip address=163.223.173.0/24 comment=AS4809
 add list=cnip address=163.223.178.0/23 comment=AS4809
 add list=cnip address=163.223.216.0/23 comment=AS4809
+add list=cnip address=163.223.222.0/23 comment=AS4809
 add list=cnip address=163.228.0.0/16 comment=AS4809
 add list=cnip address=164.52.0.0/17 comment=AS4809
 add list=cnip address=166.111.0.0/16 comment=AS4809
