@@ -6073,6 +6073,7 @@ add list=cnip address=129.28.0.0/16 comment=AS4809
 add list=cnip address=129.204.0.0/16 comment=AS4809
 add list=cnip address=129.211.0.0/16 comment=AS4809
 add list=cnip address=132.232.0.0/16 comment=AS4809
+add list=cnip address=134.49.240.0/22 comment=AS4809
 add list=cnip address=134.175.0.0/16 comment=AS4809
 add list=cnip address=137.59.59.0/24 comment=AS4809
 add list=cnip address=137.59.88.0/22 comment=AS4809
